@@ -14,7 +14,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-07T17:45:58.654835",
+    "last_updated": "2026-03-07T18:30:15.708970",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.6.4"
@@ -262,7 +262,7 @@
     "p_max": 864,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-07T17:45:58.653989",
+    "calculation_timestamp": "2026-03-07T18:30:15.708121",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -587,20 +587,20 @@
       "date": "2026-03-08",
       "name": "[100%-0%-0%] Foundation Ride",
       "type": "WORKOUT",
-      "planned_tss": 91,
+      "planned_tss": 70,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
-      "workout_summary": "1m @103W | 1m @116W | 1m @129W | 1m @141W | 1m @154W | 5\u00d711m @154W / 11m rec | 1m @154W | 1m @141W | 1m @129W | 1m @116W | 1m @103W",
-      "description": "Lockere Basiseinheit\n- 1m 40%\n- 1m 45%\n- 1m 50%\n- 1m 55%\n- 1m 60%\n\n5x\n- 11m 60%\n- 11m 75%\n\n- 1m 60%\n- 1m 55%\n- 1m 50%\n- 1m 45%\n- 1m 40%"
+      "workout_summary": null,
+      "description": "Lockere Basiseinheit\n- 1m 40%\n- 1m 45%\n- 1m 50%\n- 1m 55%\n- 1m 60%\n\n- 110m 60%\n\n- 1m 60%\n- 1m 55%\n- 1m 50%\n- 1m 45%\n- 1m 40%"
     }
   ],
   "workout_summary_stats": {
     "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.97,
