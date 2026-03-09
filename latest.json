@@ -14,7 +14,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-09T07:38:38.138174",
+    "last_updated": "2026-03-09T08:26:01.083491",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.6.4"
@@ -247,7 +247,7 @@
     "p_max": 864,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-09T07:38:38.137360",
+    "calculation_timestamp": "2026-03-09T08:26:01.082657",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -586,15 +586,48 @@
       "duration_formatted": "1h5m",
       "workout_summary": "15m @154W | 5\u00d74m @283W / 4m rec | 10m @129W",
       "description": "-15m ramp 50-70%\n\n5x\n -4m 110%\n -4m 50%\n\n-10m 50%"
+    },
+    {
+      "id": "event_2",
+      "date": "2026-03-11",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": 45,
+      "duration_hours": 0.86,
+      "duration_formatted": "51m36s",
+      "workout_summary": null,
+      "description": "\n- 8.6km 70-76% HR"
+    },
+    {
+      "id": "event_3",
+      "date": "2026-03-12",
+      "name": "VO2max Progression (5 x 4 min)",
+      "type": "WORKOUT",
+      "planned_tss": 76,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": "15m @154W | 5\u00d74m @283W / 4m rec | 10m @129W",
+      "description": "-15m ramp 50-70%\n\n5x\n -4m 110%\n -4m 50%\n\n-10m 50%"
+    },
+    {
+      "id": "event_4",
+      "date": "2026-03-14",
+      "name": "[100%-0%-0%] Foundation Ride",
+      "type": "WORKOUT",
+      "planned_tss": 70,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "Lockere Basiseinheit\n- 1m 40%\n- 1m 45%\n- 1m 50%\n- 1m 55%\n- 1m 60%\n\n- 110m 60%\n\n- 1m 60%\n- 1m 55%\n- 1m 50%\n- 1m 45%\n- 1m 40%"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 4,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 4.86,
