@@ -14,7 +14,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-08T23:46:13.821123",
+    "last_updated": "2026-03-09T01:56:47.980139",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.6.4"
@@ -49,10 +49,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 28.95,
-      "atl": 38.74,
-      "tsb": -9.79,
-      "ramp_rate": 1.36,
+      "ctl": 28.27,
+      "atl": 33.58,
+      "tsb": -5.31,
+      "ramp_rate": 1.33,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -90,21 +90,21 @@
     },
     "current_metrics": {
       "weight_kg": 78.0,
-      "resting_hr": 51,
-      "hrv": 55.0,
-      "sleep_quality": 2,
-      "sleep_hours": 7.05,
-      "sleep_formatted": "7h3m"
+      "resting_hr": 52,
+      "hrv": null,
+      "sleep_quality": null,
+      "sleep_hours": null,
+      "sleep_formatted": null
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.11,
-    "hrv_baseline_7d": 49.7,
-    "rhr_baseline_7d": 51.1,
-    "hrv_baseline_28d": 48.8,
-    "rhr_baseline_28d": 51,
-    "latest_hrv": 55.0,
-    "latest_rhr": 51,
+    "recovery_index": null,
+    "hrv_baseline_7d": 50.0,
+    "rhr_baseline_7d": 51,
+    "hrv_baseline_28d": 49.1,
+    "rhr_baseline_28d": 50.9,
+    "latest_hrv": null,
+    "latest_rhr": 52,
     "acwr": 1.14,
     "acwr_interpretation": "optimal",
     "monotony": 1.0,
@@ -116,7 +116,7 @@
     "multi_sport_detected": true,
     "strain": 253.0,
     "stress_tolerance": 2.5,
-    "load_recovery_ratio": 2.3,
+    "load_recovery_ratio": null,
     "tss_7d_total": 253.0,
     "tss_28d_total": 888.0,
     "zone_distribution_7d": {
@@ -247,9 +247,9 @@
     "p_max": 864,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-08T23:46:13.820327",
+    "calculation_timestamp": "2026-03-09T01:56:47.979314",
     "data_quality": {
-      "hrv_data_points": 7,
+      "hrv_data_points": 6,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 13,
@@ -463,22 +463,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-03-02",
-      "weight_kg": null,
-      "resting_hr": 53,
-      "hrv_rmssd": 48.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.35,
-      "sleep_formatted": "7h21m",
-      "sleep_quality": 2,
-      "sleep_score": 83.0,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-03-03",
       "weight_kg": 78.0,
       "resting_hr": 51,
@@ -573,36 +557,40 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
-    }
-  ],
-  "planned_workouts": [
+    },
     {
-      "id": "event_1",
-      "date": "2026-03-08",
-      "name": "[100%-0%-0%] Foundation Ride",
-      "type": "WORKOUT",
-      "planned_tss": 70,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "description": "Lockere Basiseinheit\n- 1m 40%\n- 1m 45%\n- 1m 50%\n- 1m 55%\n- 1m 60%\n\n- 110m 60%\n\n- 1m 60%\n- 1m 55%\n- 1m 50%\n- 1m 45%\n- 1m 40%"
+      "date": "2026-03-09",
+      "weight_kg": null,
+      "resting_hr": 52,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
+  "planned_workouts": [],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 4.86,
     "total_training_formatted": "4h51m",
     "total_tss": 253,
     "activities_count": 4,
-    "avg_hrv": 49.7,
-    "avg_resting_hr": 51.1
+    "avg_hrv": 50.0,
+    "avg_resting_hr": 51.0
   },
   "race_calendar": {
     "next_race": null,
