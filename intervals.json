@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T15:38:07.960974",
+  "generated_at": "2026-03-31T16:39:13.092918",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -64,6 +64,53 @@
           "avg_hr": 123,
           "max_hr": 129,
           "avg_cadence": 80.60518,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i136227382",
+      "date": "2026-03-31",
+      "type": "Run",
+      "name": "Laufen auf der Bahn",
+      "interval_summary": [
+        "2x 11m20s 121bpm",
+        "1x 9m32s 124bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "680s@121bpm82rpm",
+          "duration_secs": 684,
+          "avg_hr": 119,
+          "max_hr": 130,
+          "avg_cadence": 80.98684,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 125,
+          "max_hr": 125,
+          "avg_cadence": 81.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "680s@121bpm82rpm",
+          "duration_secs": 675,
+          "avg_hr": 123,
+          "max_hr": 130,
+          "avg_cadence": 82.27704,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "572s@124bpm81rpm",
+          "duration_secs": 572,
+          "avg_hr": 124,
+          "max_hr": 130,
+          "avg_cadence": 80.58217,
           "zone": 1
         }
       ]
