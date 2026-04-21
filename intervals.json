@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T17:16:34.729312",
+  "generated_at": "2026-04-21T18:37:49.924067",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -168,6 +168,32 @@
           "zone": 1,
           "training_load": 1.1537768,
           "decoupling": 80.41297
+        }
+      ]
+    },
+    {
+      "activity_id": "i141807983",
+      "date": "2026-04-21",
+      "type": "GravelRide",
+      "name": "M\u00fclheim an der Ruhr Graveln",
+      "interval_summary": [
+        "1x 1h31m 129bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5502s@129bpm",
+          "duration_secs": 5502,
+          "avg_hr": 129,
+          "max_hr": 145,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 117,
+          "max_hr": 117,
+          "zone": 1
         }
       ]
     }
