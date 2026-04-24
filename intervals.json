@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T14:19:52.343737",
+  "generated_at": "2026-04-24T15:45:40.132164",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -194,6 +194,91 @@
           "avg_hr": 117,
           "max_hr": 117,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i142589516",
+      "date": "2026-04-24",
+      "type": "Run",
+      "name": "M\u00fclheim an der Ruhr Laufen",
+      "interval_summary": [
+        "1x 6m56s 130bpm",
+        "6x 5m32s 155bpm",
+        "1x 3m29s 163bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "416s@130bpm82rpm",
+          "duration_secs": 416,
+          "avg_hr": 130,
+          "max_hr": 147,
+          "avg_cadence": 82.4976,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "332s@155bpm84rpm",
+          "duration_secs": 343,
+          "avg_hr": 144,
+          "max_hr": 152,
+          "avg_cadence": 84.73178,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "332s@155bpm84rpm",
+          "duration_secs": 358,
+          "avg_hr": 156,
+          "max_hr": 165,
+          "avg_cadence": 82.76816,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "332s@155bpm84rpm",
+          "duration_secs": 343,
+          "avg_hr": 155,
+          "max_hr": 163,
+          "avg_cadence": 82.655975,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "332s@155bpm84rpm",
+          "duration_secs": 317,
+          "avg_hr": 156,
+          "max_hr": 162,
+          "avg_cadence": 83.67192,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "332s@155bpm84rpm",
+          "duration_secs": 321,
+          "avg_hr": 160,
+          "max_hr": 166,
+          "avg_cadence": 84.07165,
+          "zone": 5
+        },
+        {
+          "type": "WORK",
+          "label": "332s@155bpm84rpm",
+          "duration_secs": 310,
+          "avg_hr": 159,
+          "max_hr": 165,
+          "avg_cadence": 84.17742,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "209s@163bpm84rpm",
+          "duration_secs": 209,
+          "avg_hr": 163,
+          "max_hr": 168,
+          "avg_cadence": 84.1579,
+          "zone": 5
         }
       ]
     }
