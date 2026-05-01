@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-01T06:34:19.098432",
+    "last_updated": "2026-05-01T08:31:58.297371",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -156,8 +156,8 @@
       "ctl": 18.58,
       "atl": 9.38,
       "tsb": 9.2,
-      "ramp_rate": -3.37,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -1.91,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 226.7,
@@ -216,7 +216,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 48,
+      "steps": 245,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -328,11 +328,12 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-04-26"
+        "2026-04-26",
+        "2026-05-01"
       ],
       "completed_dates": []
     },
@@ -340,8 +341,7 @@
       "phase": null,
       "confidence": "low",
       "reason_codes": [
-        "BUILD_BASE_AMBIGUOUS",
-        "NO_PLANNED_WORKOUTS"
+        "BUILD_BASE_AMBIGUOUS"
       ],
       "basis": {
         "stream_1": {
@@ -351,11 +351,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 0.56,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -368,8 +368,7 @@
     },
     "phase_detected": null,
     "phase_triggers": [
-      "BUILD_BASE_AMBIGUOUS",
-      "NO_PLANNED_WORKOUTS"
+      "BUILD_BASE_AMBIGUOUS"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -392,13 +391,13 @@
     "p_max": 990,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-01T06:34:19.097168",
+    "calculation_timestamp": "2026-05-01T08:31:58.296456",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 0,
       "activities_28d": 7,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -670,7 +669,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 48,
+      "steps": 245,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -681,11 +680,24 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 107548787,
+      "date": "2026-05-01",
+      "name": "[100%-0%-0%] Foundation Ride",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": "10m @135W | 5\u00d76m @180W / 2m rec | 5m @135W",
+      "description": "Foundation training: Relatively low intensity ride with goal of spending a large proportion of the ride into Endurance Zone 2.\n\nWarmup\n- 10m ramp 50-55%\n\n5x\n- 6m 70%\n- 2m 60%\n\n- 5m ramp 55-50%"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
