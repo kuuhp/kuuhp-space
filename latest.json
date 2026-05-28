@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-28T19:21:12.692314",
+    "last_updated": "2026-05-28T21:29:54.704997",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -234,7 +234,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2134,
+      "steps": 3323,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -431,7 +431,7 @@
     "p_max": 983,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-28T19:21:12.691352",
+    "calculation_timestamp": "2026-05-28T21:29:54.703729",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -475,8 +475,8 @@
       "efficiency_factor": 1.4965035,
       "hrrc": 20,
       "elevation_m": null,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 8,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 465,
@@ -530,8 +530,8 @@
       "efficiency_factor": 1.2248062,
       "hrrc": null,
       "elevation_m": null,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1798,
@@ -585,8 +585,8 @@
       "efficiency_factor": 1.1935484,
       "hrrc": null,
       "elevation_m": 251.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 3106,
@@ -639,8 +639,8 @@
       "efficiency_factor": 1.4391892,
       "hrrc": 25,
       "elevation_m": 721.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 7,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 568,
@@ -928,7 +928,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2134,
+      "steps": 3323,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
